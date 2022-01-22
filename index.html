@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encriptador de Mensajes!</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="titulo">Código secreto</h1>
+  <h1 class="titulo">CÓDIGO SECRETO</h1>
 
   <main class="main">
     <section class="form box">
       <form action="">
-        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <h2>Ingrese mensaje:</h2>
+        <label for="input-texto" class="subtitle">Sólo palabras sin acentos</label>
         <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
         <input class="btn" type="submit" value="Encriptar!" id="btn-encriptar">
         <input class="btn" type="submit" value="Desencriptar!" id="btn-desencriptar">
@@ -21,9 +25,11 @@
     </section>
   
     <section class="msg box">
-      <h2 id="">Mensaje encriptado:</h2>
-      <input class="text-input" type="text" id="msg"></input>
+      <h2>Mensaje encriptado:</h2>
+      <label for="input-texto" class="subtitle">Aquí verás tu mensaje!</label>
+      <input class="text-input" type="text" readonly id="msg"></input>
       <input class="btn" type="submit" value="Copiar" id="btn-copy">
+      <input class="btn" type="submit" value="Pegar" id="btn-paste">
     </section>
   </main>
 
