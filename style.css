@@ -26,6 +26,7 @@ h2 {
   align-items: center;
   gap: 10px;
   max-width: 1024px; 
+  flex-wrap: wrap;
 }
 
 .titulo {
