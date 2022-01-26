@@ -20,10 +20,12 @@ h2 {
 }
 
 .main {
-  /* width: 80vw; */
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 1024px; 
 }
 
 .titulo {
@@ -39,7 +41,7 @@ h2 {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 0.5em;
-  width: 30vw;
+
   height: auto;
 }
 
